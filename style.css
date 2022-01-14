@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+ background-color:#a5778b;
+}
+form{
+    height: 100vh;
+    width: 100wh;
+    display:grid;
+    place-items: center;
+}
+.box{
+    background:rgb(174, 74, 214);
+    border-radius: 20px;
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+}
+.left{
+    height: inherit;
+    
+    width: 50%;
+
+
+}
+.right{
+    background: rgb(114, 253, 133);
+    width: 50%;
+    height: inherit;
+    display: grid;
+    place-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    
+
+}
